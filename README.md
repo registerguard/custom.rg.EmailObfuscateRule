@@ -4,25 +4,25 @@ E-mail obfuscation RULE/tag for for DTI's Content Publisher system. [CSP (Caché
 
 ## Examples:
 
-1. __Example 01: Container tag__
+__Example 01: Container tag__
 
     
     <rg:email:obfuscate email="bob@bob.com" simple="" mode="" cc="bob@cc.com" bcc="bob@bcc.com" subject="My Subject" body="My body" id="myId" class="myClass" rel="myRel" title="Title goes here" text="" var="foo">#(foo)#</rg:email:obfuscate>
     
 
-2. __Example 02: Self-closing tag__
+__Example 02: Self-closing tag__
 
     
     <rg:email:obfuscate email="bob@bob.com" simple="" mode="" cc="bob@cc.com" bcc="bob@bcc.com" subject="My Subject" body="My body" id="myId" class="myClass" rel="myRel" title="Title goes here" text="Click here to e-mail Bob" />
     
 
-3. __Example 03: Return just the obfuscated e-mail address__
+__Example 03: Return just the obfuscated e-mail address__
 
     
     <rg:email:obfuscate email="bob@bob.com" simple="true" />
     
 
-4. __Example 04: Return the obfuscated e-mail address and build the link manually__
+__Example 04: Return the obfuscated e-mail address and build the link manually__
 
     
     <rg:email:obfuscate email="bob@bob.com" simple="true" var="foo"><a #("href=""&amp;#x6D;&amp;#97;&amp;#x69;&amp;#x6C;&amp;#x74;&amp;#x6F;&amp;#x3A;" _ foo _ """")#>#(foo)#</a></rg:email:obfuscate>
