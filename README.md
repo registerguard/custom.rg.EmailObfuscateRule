@@ -1,6 +1,6 @@
 ## About:
 
-E-mail obfuscation RULE/tag for for DTI's Content Publisher system. [CSP (Caché Server Page) / COS (Caché Objectscript)]
+E-mail obfuscation RULE/tag for DTI's Content Publisher system. [CSP (Caché Server Page) / COS (Caché Objectscript)]
 
 ## Examples:
 
